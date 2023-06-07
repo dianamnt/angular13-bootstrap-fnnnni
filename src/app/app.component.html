@@ -1,1 +1,2 @@
-<app-list></app-list>
+<app-list [itemList]="itemList" (deleteItem)="deleteItem($event)"></app-list>
+<app-add-item (item)="addItem($event)"></app-add-item>
